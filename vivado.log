@@ -1,0 +1,314 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed May  5 15:30:39 2021
+# Process ID: 24552
+# Current directory: C:/Users/Jenna/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30488
+# Log file: C:/Users/Jenna/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Jenna/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Jenna/ProgFiles/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 818.152 ; gain = 76.543
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'OTTER_Wrapper_Sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim/otter_memory.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj OTTER_Wrapper_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/SevSeg/BCD.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Branch_Address_Generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_Address_Generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Branch_Condition_Generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_Condition_Generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/CU_DCDR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_DCDR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/SevSeg/CathodeDriver.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CathodeDriver
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/new/Data_CU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_CU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Immed_Gen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Immed_Gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/new/OTTER_PIPELINE_MCU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_PIPELINE_MCU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/OTTER_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Program_Counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_Counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Reg_File.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg_File
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/SevSeg/SevSegDisp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevSegDisp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/imports/Downloads/bram_dualport_pipeline.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_mem_dualport
+INFO: [VRFC 10-311] analyzing module OTTER_mem_byte
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/debounce_one_shot.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce_one_shot
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sim_1/imports/new/OTTER_Wrapper_Sim.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Jenna/ProgFiles/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dfd7440c505246179ee0f05c42107e29 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot OTTER_Wrapper_Sim_behav xil_defaultlib.OTTER_Wrapper_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Program_Counter
+Compiling module xil_defaultlib.CU_DCDR
+Compiling module xil_defaultlib.Immed_Gen
+Compiling module xil_defaultlib.Data_CU
+Compiling module xil_defaultlib.Branch_Address_Generator
+Compiling module xil_defaultlib.Branch_Condition_Generator
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.OTTER_mem_byte
+Compiling module xil_defaultlib.Reg_File
+Compiling module xil_defaultlib.OTTER_PIPELINE_MCU
+Compiling module xil_defaultlib.BCD
+Compiling module xil_defaultlib.CathodeDriver
+Compiling module xil_defaultlib.SevSegDisp
+Compiling module xil_defaultlib.debounce_one_shot
+Compiling module xil_defaultlib.OTTER_Wrapper
+Compiling module xil_defaultlib.OTTER_Wrapper_Sim
+Compiling module xil_defaultlib.glbl
+Compiling package xil_defaultlib.$unit_ALU_sv
+Built simulation snapshot OTTER_Wrapper_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "OTTER_Wrapper_Sim_behav -key {Behavioral:sim_1:Functional:OTTER_Wrapper_Sim} -tclbatch {OTTER_Wrapper_Sim.tcl} -view {D:/Jenna/Classes/Vivado/333_Optimized_OTTER/OTTER_Wrapper_Sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config D:/Jenna/Classes/Vivado/333_Optimized_OTTER/OTTER_Wrapper_Sim_behav.wcfg
+source OTTER_Wrapper_Sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'OTTER_Wrapper_Sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 875.707 ; gain = 34.867
+run 100 us
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'OTTER_Wrapper_Sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim/otter_memory.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj OTTER_Wrapper_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/SevSeg/BCD.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Branch_Address_Generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_Address_Generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Branch_Condition_Generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_Condition_Generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/CU_DCDR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_DCDR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/SevSeg/CathodeDriver.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CathodeDriver
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/new/Data_CU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_CU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Immed_Gen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Immed_Gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/new/OTTER_PIPELINE_MCU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_PIPELINE_MCU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/OTTER_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Program_Counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_Counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Reg_File.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg_File
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/SevSeg/SevSegDisp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevSegDisp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/imports/Downloads/bram_dualport_pipeline.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_mem_dualport
+INFO: [VRFC 10-311] analyzing module OTTER_mem_byte
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/debounce_one_shot.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce_one_shot
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sim_1/imports/new/OTTER_Wrapper_Sim.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Jenna/ProgFiles/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dfd7440c505246179ee0f05c42107e29 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot OTTER_Wrapper_Sim_behav xil_defaultlib.OTTER_Wrapper_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Program_Counter
+Compiling module xil_defaultlib.CU_DCDR
+Compiling module xil_defaultlib.Immed_Gen
+Compiling module xil_defaultlib.Data_CU
+Compiling module xil_defaultlib.Branch_Address_Generator
+Compiling module xil_defaultlib.Branch_Condition_Generator
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.OTTER_mem_byte
+Compiling module xil_defaultlib.Reg_File
+Compiling module xil_defaultlib.OTTER_PIPELINE_MCU
+Compiling module xil_defaultlib.BCD
+Compiling module xil_defaultlib.CathodeDriver
+Compiling module xil_defaultlib.SevSegDisp
+Compiling module xil_defaultlib.debounce_one_shot
+Compiling module xil_defaultlib.OTTER_Wrapper
+Compiling module xil_defaultlib.OTTER_Wrapper_Sim
+Compiling module xil_defaultlib.glbl
+Compiling package xil_defaultlib.$unit_ALU_sv
+Built simulation snapshot OTTER_Wrapper_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 889.828 ; gain = 0.000
+run 100 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'OTTER_Wrapper_Sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim/otter_memory.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj OTTER_Wrapper_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/SevSeg/BCD.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Branch_Address_Generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_Address_Generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Branch_Condition_Generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_Condition_Generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/CU_DCDR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_DCDR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/SevSeg/CathodeDriver.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CathodeDriver
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/new/Data_CU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_CU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Immed_Gen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Immed_Gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/new/OTTER_PIPELINE_MCU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_PIPELINE_MCU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/OTTER_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Program_Counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_Counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Reg_File.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg_File
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/SevSeg/SevSegDisp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevSegDisp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/imports/Downloads/bram_dualport_pipeline.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_mem_dualport
+INFO: [VRFC 10-311] analyzing module OTTER_mem_byte
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/debounce_one_shot.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce_one_shot
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sim_1/imports/new/OTTER_Wrapper_Sim.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Jenna/ProgFiles/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dfd7440c505246179ee0f05c42107e29 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot OTTER_Wrapper_Sim_behav xil_defaultlib.OTTER_Wrapper_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Program_Counter
+Compiling module xil_defaultlib.CU_DCDR
+Compiling module xil_defaultlib.Immed_Gen
+Compiling module xil_defaultlib.Data_CU
+Compiling module xil_defaultlib.Branch_Address_Generator
+Compiling module xil_defaultlib.Branch_Condition_Generator
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.OTTER_mem_byte
+Compiling module xil_defaultlib.Reg_File
+Compiling module xil_defaultlib.OTTER_PIPELINE_MCU
+Compiling module xil_defaultlib.BCD
+Compiling module xil_defaultlib.CathodeDriver
+Compiling module xil_defaultlib.SevSegDisp
+Compiling module xil_defaultlib.debounce_one_shot
+Compiling module xil_defaultlib.OTTER_Wrapper
+Compiling module xil_defaultlib.OTTER_Wrapper_Sim
+Compiling module xil_defaultlib.glbl
+Compiling package xil_defaultlib.$unit_ALU_sv
+Built simulation snapshot OTTER_Wrapper_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "OTTER_Wrapper_Sim_behav -key {Behavioral:sim_1:Functional:OTTER_Wrapper_Sim} -tclbatch {OTTER_Wrapper_Sim.tcl} -view {D:/Jenna/Classes/Vivado/333_Optimized_OTTER/OTTER_Wrapper_Sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config D:/Jenna/Classes/Vivado/333_Optimized_OTTER/OTTER_Wrapper_Sim_behav.wcfg
+source OTTER_Wrapper_Sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'OTTER_Wrapper_Sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 922.695 ; gain = 0.000
+run 100 us
+archive_project D:/Jenna/Classes/Vivado/333_Optimized_OTTERv2.0.xpr.zip -temp_dir C:/Users/Jenna/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-24552-ByteTheBullet -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Jenna/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-24552-ByteTheBullet' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/Jenna/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-24552-ByteTheBullet/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

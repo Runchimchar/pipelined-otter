@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="OTTER_Wrapper_Sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="OTTER_Wrapper_Sim" />
+            <top_module name="\$unit_ALU_sv " />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2659243356000fs"></ZoomStartTime>
+      <ZoomEndTime time="2659336556001fs"></ZoomEndTime>
+      <Cursor1Time time="2659307156000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/pcSource" type="array">
+      <obj_property name="ElementShortName">pcSource[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pcSource[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/_BCG/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/regFD" type="array">
+      <obj_property name="ElementShortName">regFD</obj_property>
+      <obj_property name="ObjectShortName">regFD</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/regDE" type="array">
+      <obj_property name="ElementShortName">regDE</obj_property>
+      <obj_property name="ObjectShortName">regDE</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/_DATACU/SEL_A" type="array">
+      <obj_property name="ElementShortName">SEL_A[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SEL_A[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/_DATACU/SEL_B" type="array">
+      <obj_property name="ElementShortName">SEL_B[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SEL_B[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/aluA_E" type="array">
+      <obj_property name="ElementShortName">aluA_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluA_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/aluB_E" type="array">
+      <obj_property name="ElementShortName">aluB_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluB_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/rs1_E" type="array">
+      <obj_property name="ElementShortName">rs1_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/rs2_E" type="array">
+      <obj_property name="ElementShortName">rs2_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/regEM" type="array">
+      <obj_property name="ElementShortName">regEM</obj_property>
+      <obj_property name="ObjectShortName">regEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/regMW" type="array">
+      <obj_property name="ElementShortName">regMW</obj_property>
+      <obj_property name="ObjectShortName">regMW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/_Reg_File/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Wrapper_Sim/inst/_MCU/load_flag" type="logic">
+      <obj_property name="ElementShortName">load_flag</obj_property>
+      <obj_property name="ObjectShortName">load_flag</obj_property>
+   </wvobject>
+</wave_config>
