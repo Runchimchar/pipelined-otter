@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1620149764">
+  <File Type="PA-TCL" Name="OTTER_Wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="OTTER_Wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="OTTER_Wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="OTTER_Wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="OTTER_Wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="OTTER_Wrapper.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/SRC/ALU.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/ALU.sv"/>
+        <Attr Name="ImportTime" Val="1583347084"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/SevSeg/BCD.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/SevSeg/BCD.sv"/>
+        <Attr Name="ImportTime" Val="1546496974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/Branch_Address_Generator.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Branch_Address_Generator.sv"/>
+        <Attr Name="ImportTime" Val="1583230545"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/Branch_Condition_Generator.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Branch_Condition_Generator.sv"/>
+        <Attr Name="ImportTime" Val="1619544958"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/CU_DCDR.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/CU_DCDR.sv"/>
+        <Attr Name="ImportTime" Val="1620065375"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/SevSeg/CathodeDriver.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/SevSeg/CathodeDriver.sv"/>
+        <Attr Name="ImportTime" Val="1546498096"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Data_CU.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/new/Data_CU.sv"/>
+        <Attr Name="ImportTime" Val="1620149582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/Immed_Gen.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Immed_Gen.sv"/>
+        <Attr Name="ImportTime" Val="1583522135"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/OTTER_PIPELINE_MCU.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/new/OTTER_PIPELINE_MCU.sv"/>
+        <Attr Name="ImportTime" Val="1620257523"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/Program_Counter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Program_Counter.sv"/>
+        <Attr Name="ImportTime" Val="1619048814"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/Reg_File.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/Reg_File.sv"/>
+        <Attr Name="ImportTime" Val="1618788353"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/SevSeg/SevSegDisp.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/SevSeg/SevSegDisp.sv"/>
+        <Attr Name="ImportTime" Val="1546497618"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/bram_dualport_pipeline.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/bram_dualport_pipeline.sv"/>
+        <Attr Name="ImportTime" Val="1618508228"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/debounce_one_shot.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/debounce_one_shot.sv"/>
+        <Attr Name="ImportTime" Val="1583222604"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/OTTER_Wrapper.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/OTTER_Wrapper.sv"/>
+        <Attr Name="ImportTime" Val="1618935859"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/otter_memory_v1_04.sv">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/otter_memory_v1_04.sv"/>
+        <Attr Name="ImportTime" Val="1583348698"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/ALU_MUX_A.sv">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/ALU_MUX_A.sv"/>
+        <Attr Name="ImportTime" Val="1583231785"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/ALU_MUX_B.sv">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/ALU_MUX_B.sv"/>
+        <Attr Name="ImportTime" Val="1583231813"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/CSR.sv">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/CSR.sv"/>
+        <Attr Name="ImportTime" Val="1583284803"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/MCU.sv">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/MCU.sv"/>
+        <Attr Name="ImportTime" Val="1618791875"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/CU_FSM.sv">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/CU_FSM.sv"/>
+        <Attr Name="ImportTime" Val="1583521736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/SRC/otter_memory.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/333_Optimized_OTTER/333_Optimized_OTTER.srcs/sources_1/SRC/otter_memory.mem"/>
+        <Attr Name="ImportTime" Val="1620189753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="OTTER_Wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Jenna/Classes/Vivado/DJ_Paint_OTTER/DJ_Paint_OTTER.srcs/constrs_1/new/constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1583349288"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
